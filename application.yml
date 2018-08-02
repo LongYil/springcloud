@@ -1,15 +1,3 @@
-spring: 
-  profiles: 
-    active: 
-    - dev 
---- 
-spring: 
-  profiles: dev   #开发版
-    application: 
-      name: microservicecloud-config-atguigu-dev
---- 
-spring: 
-  profiles: test   #测试版
-    application: 
-      name: microservicecloud-config-atguigu-test
-#  文件保存为utf-8
+spring:
+  profiles:
+    active: test
